@@ -2,7 +2,7 @@
 FROM node:14-slim
 
 # Set the working directory in the container
-WORKDIR /app
+WORKDIR /DOCKER-MOVIEINFO-1
 
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
